@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery/dist/jquery.min.js"></script>
+    <style>
+
+        ul,li,p {
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .menu {
+
+            width:-moz-fit-content;
+            margin: 0 auto;
+
+        }
+
+        .menu>ul>li {
+            float: left;
+            margin-right: 20px;
+            font-size: 13px;
+            padding: 20px 0;
+        }
+
+        .menu>ul>li:hover {
+            color: orangered;
+        }
+
+        .sub_menu {
+            position: absolute;
+            margin-top: 20px;
+            left: 0px;
+            width: 100%;
+            height: 208px;
+            background-color: white;
+            display: none;
+            border-top: 1px solid #E0E0E0;
+            box-shadow: 2px 1px 1px #E0E0E0;
+        }
+
+        .sub_menu .menu_item {
+            border-right: 1px solid #E0E0E0;
+            height: 208px;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .sub_menu .menu_item img {
+            margin-top: 40px;
+        }
+
+        .menu_item p {
+            text-align: center;
+            margin-top: 5px;
+            color: #333333;
+        }
+
+        .menu_item .price {
+            color: #ff6700;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="menu">
+        <ul>
+            <li>小米手机
+                <div class="sub_menu">
+                    <ul>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/15/goods/nav/maxdingbu!160x110.jpg" />
+                            <p>小米max</p>
+                            <p class="price">1499起</p>
+                        </li>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/16/goods/nav/mi5!160x110.jpg" />
+                            <p>小米手机5</p>
+                            <p class="price">1799起</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>红米
+                <div class="sub_menu">
+                    <ul>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/g/2015/cn-index/hongmipro-320!160x110.jpg" />
+                            <p>红米pro</p>
+                            <p class="price">1499起</p>
+                        </li>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/15/goods/nav/note3!160x110.jpg" />
+                            <p>红米note3</p>
+                            <p class="price">899起</p>
+                        </li>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/g/2015/video/hongmi3s!160x110.jpg" />
+                            <p>红米手机3S</p>
+                            <p class="price">699起</p>
+                        </li>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/15/goods/nav/hongmi3!160x110.jpg" />
+                            <p>红米手机3</p>
+                            <p class="price">699起</p>
+                        </li>
+                        <li class="menu_item">
+                            <img src="http://c1.mifile.cn/f/i/g/doodle/320-220!160x110.jpg" />
+                            <p>红米手机3x</p>
+                            <p class="price">799起</p>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>平板·笔记本</li>
+            <li>电视</li>
+            <li>盒子·影音</li>
+            <li>路由器</li>
+            <li>智能硬件</li>
+            <li>服务</li>
+            <li>社区</li>
+        </ul>
+    </div>
+
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function() {
+
+        $(".menu >ul >li").hover(function() {
+            $(this).children().show();
+
+        }, function() {
+
+            $(this).children().hide();
+        });
+
+    });
+</script>
+
+</body>
+</html>

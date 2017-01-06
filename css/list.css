@@ -1,0 +1,110 @@
+
+.detail_content_right ul li {
+    width: 870px;
+    height: 250px;
+    margin: 10px 0 10px 30px;
+    padding-bottom: 0;
+    list-style: none;
+    border-bottom: 1px solid #E2D5B9;
+}
+
+.detail_content_right ul li .pic {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ddd;
+    float: left;
+    padding: 10px;
+}
+
+.detail_content_right ul li > .pic > img {
+    width: 300px;
+    height: 200px;
+}
+
+.detail_content_right ul li .text {
+    width: 530px;
+    height: 220px;
+    float: right;
+}
+
+.detail_content_right ul li .text h1 {
+    width: 500px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #734941;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.detail_content_right ul li .text h1 a {
+    color: #734941;
+    text-decoration: none;
+}
+
+.detail_content_right ul li .text h2 {
+    width: 500px;
+    height: 140px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #c1b2b0;
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+.detail_content_right ul li .text h3 {
+    width: 500px;
+    height: 40px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #ccc;
+    margin-left: 20px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.detail_content_right .page_num {
+    width: 870px;
+    height: 80px;
+    line-height: 80px;
+    margin-left: 30px;
+
+}
+
+.detail_content_right .page_num .fenye {
+    color: #b1b1b1;
+    display: inline-table;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    width: 100%;
+
+}
+
+.detail_content_right .page_num .fenye a {
+    margin: 5px 4px 0 0;
+    color: #b1b1b1;
+    background: #fff;
+    display: inline-table;
+    border: 1px solid #cccccc;
+    text-align: center;
+    height: 22px;
+    line-height: 22px;
+    width: 22px;
+    padding: 5px;
+}
+
+.detail_content_right .page_num .fenye span {
+    margin-left: 10px;
+}
+
+.detail_content_right .page_num .fenye a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.detail_content {
+    height: 1500px;
+}
+
+

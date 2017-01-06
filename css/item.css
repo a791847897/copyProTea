@@ -1,0 +1,45 @@
+
+.siximg {
+    width: 870px;
+    height: 1200px;
+    margin-left: 30px;
+    border-bottom: 1px solid #E2D5B9;
+    font-size: 14px;
+    padding: 15px 0;
+
+}
+
+.siximg ul {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 870px;
+    height: 1000px;
+}
+
+.siximg ul li {
+    border: 1px solid #e2d5b9;
+    width: 380px;
+    height: 360px;
+    margin: 20px 0;
+
+}
+
+.item_img {
+    width: 380px;
+    height: 310px;
+
+}
+
+.item_p {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    padding: 10px 0;
+}
+
+.detail_content {
+    height: 1400px;
+}
+
